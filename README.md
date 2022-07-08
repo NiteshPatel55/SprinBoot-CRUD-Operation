@@ -1,4 +1,4 @@
-# SprinBoot-CRUD-Operation
+# SpringBoot-CRUD-Operation
 # Springboot with hibernate CRUD operation
 
   # for get all students hit the endpoint :
