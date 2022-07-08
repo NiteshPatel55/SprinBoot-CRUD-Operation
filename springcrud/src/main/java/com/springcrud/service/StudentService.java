@@ -46,9 +46,9 @@ public class StudentService {
 	
 	
 	//update student using student id 
-	public Student updateStudent(Student student, Integer id) {
+	public Student updateStudent(Student student) {
 		
-		studentRepository.save(student);
+		studentRepository.findById(student.getStudentId()).get();
 		return student;
 	}
 	
